@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Auswahl.css">
+    <title>Auswahl</title>
+
+</head>
+<header>
+    <h1>Hogarts-Auswahl</h1>
+</header>
+
+<body>
+    <button onclick="verteilen()"><img src="../Abschlussprojekt Harry Potter/Bilder/Sprechende-Hut.jpeg" alt="">Sprechende-Hut</button>
+
+    <div id="haus" class=""></div>
+
+    <script>
+        const hauser = ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"];
+        const hausklassen = {
+            "Gryffindor": "gryffindor",
+            "Slytherin": "slytherin",
+            "Ravenclaw": "ravenclaw",
+            "Hufflepuff": "hufflepuff"
+        };
+
+        function verteilen() {
+            const zufallszahl = Math.floor(Math.random() * hauser.length);
+            const zugeordnetesHaus = hauser[zufallszahl];
+            const hausKlasse = hausklassen[zugeordnetesHaus];
+
+            document.getElementById("haus").innerHTML = `Du gehörst zum Haus **${zugeordnetesHaus}**!`;
+            document.body.classList.add(hausKlasse); 
+        }
+    </script>
+</body>
+</html>

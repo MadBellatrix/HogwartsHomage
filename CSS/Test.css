@@ -1,0 +1,42 @@
+header {
+  border-bottom: 1px darkgreen double;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-right: 25px;
+}
+
+
+.einleitung{
+  width: 500px;
+  border-radius: 7px;
+}
+
+li {
+  list-style-type: square;
+  padding: 10px;
+  position: relative;
+}
+
+.bild {
+  position: absolute;
+  left: -9999px;
+}
+
+li:hover .bild {
+  left: 20px;
+  top: -150px;
+  background-color: darkgreen;
+}
+
+body{
+  background: url(../Bilder/Dunkles_Mal.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

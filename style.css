@@ -1,0 +1,80 @@
+header {
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0.226);
+}
+header img{
+    width: 100px;
+}
+
+body {
+    background: url(./Bilder/Hogwarts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 25px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60%;
+    row-gap: 20px;
+    justify-content: space-between;
+
+}
+
+header li:hover{
+   background-color: green;
+   transform: scale(1.5);
+}
+header li{
+    transition: all 2s;
+}
+section {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 200px;
+    
+}
+.Gryffindor{
+    background-color: #5c0e0e8b;
+    color: gold;
+    text-decoration: none;
+}
+.Ravenclaw{
+    background-color: #222f5b88;
+    color: #946b2d;
+    text-decoration: none;
+}
+.Hufflepuff{
+    background-color: #f5b80285;
+    color: black;
+    text-decoration: none;
+}
+.Slytherin{
+    background-color: #005c3f6d;
+    color: silver;
+    text-decoration: none;
+}
+
+
+footer {
+    border-top: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+/* Quellseiten 
+https://coolors.co/020202-04471c-0d2818-058c42-16db65
+https://getcssscan.com/css-box-shadow-examples */

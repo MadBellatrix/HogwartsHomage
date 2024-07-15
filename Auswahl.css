@@ -1,0 +1,38 @@
+header{
+    margin-bottom: 100px;
+    border-bottom: dotted black 2px;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 200px;
+    margin-left: 150px;
+   
+}
+.haus {
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+.gryffindor {
+    background-color: #5c0e0e; 
+}
+
+.slytherin {
+    background-color: #005c3f; 
+}
+
+.ravenclaw {
+    background-color: #222f5b; 
+}
+
+.hufflepuff {
+    background-color: #f5b902; 
+}
